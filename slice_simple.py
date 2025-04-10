@@ -5,4 +5,3 @@ def slice_simple():
     texto2 = texto[2:5]
     print(texto2)
     print(texto.lower())
-slice_simple()
