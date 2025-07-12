@@ -1,3 +1,3 @@
-texto = input("Ingresá un texto: ")
-resultado = texto[4::2]
-print(resultado)
+def slice_advanced():
+  texto=input("Escriba su oración:") 
+  print(texto[4: :2])
