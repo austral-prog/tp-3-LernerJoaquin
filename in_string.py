@@ -1,8 +1,8 @@
-def check_vowels():
-    name= input("introducir el nombre:")
-    name= name.lower()
-    print("contiene a:", "a" in name)
-    print("contiene e:", "e" in name)
-    print("contiene i:", "i" in name)
-    print("contiene o:", "o" in name)
-    print("contiene u:", "u" in name)
+nombre = input("Ingrese un nombre: ")
+minúsculas
+nombre = nombre.lower()
+print("Contiene a:", 'a' in nombre)
+print("Contiene e:", 'e' in nombre)
+print("Contiene i:", 'i' in nombre)
+print("Contiene o:", 'o' in nombre)
+print("Contiene u:", 'u' in nombre)
