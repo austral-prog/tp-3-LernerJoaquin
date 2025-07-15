@@ -2,7 +2,6 @@ import io
 import unittest.mock
 import in_string as ex1
 
-
 class TP3InStringTestCases(unittest.TestCase):
 
     @unittest.mock.patch('sys.stdout', new_callable=io.StringIO)
@@ -52,5 +51,5 @@ class TP3InStringTestCases(unittest.TestCase):
             self.assertEqual(results[19], "Contiene u: True")
 
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     unittest.main()
